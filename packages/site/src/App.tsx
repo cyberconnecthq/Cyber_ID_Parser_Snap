@@ -2,7 +2,7 @@ import type { FunctionComponent, ReactNode } from 'react';
 import { useContext } from 'react';
 import styled from 'styled-components';
 
-import { Footer, Header } from './components';
+import { Header } from './components';
 import { GlobalStyle } from './config/theme';
 import { ToggleThemeContext } from './Root';
 
@@ -27,7 +27,6 @@ export const App: FunctionComponent<AppProps> = ({ children }) => {
       <Wrapper>
         <Header handleToggleClick={toggleTheme} />
         {children}
-        <Footer />
       </Wrapper>
     </>
   );
