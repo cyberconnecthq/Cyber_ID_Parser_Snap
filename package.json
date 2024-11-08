@@ -1,5 +1,5 @@
 {
-  "name": "cyber_id_parser",
+  "name": "root",
   "version": "0.1.0",
   "private": true,
   "description": "",
@@ -20,7 +20,8 @@
     "lint:fix": "yarn lint:eslint --fix && yarn lint:misc --write",
     "lint:misc": "prettier '**/*.json' '**/*.md' '!**/CHANGELOG.md' '**/*.yml' --ignore-path .gitignore",
     "start": "yarn workspaces foreach --parallel --interlaced --verbose run start",
-    "test": "yarn workspace snap run test"
+    "test": "yarn workspace snap run test",
+    "build:web": "yarn workspace site run build"
   },
   "devDependencies": {
     "@lavamoat/allow-scripts": "^3.0.0",

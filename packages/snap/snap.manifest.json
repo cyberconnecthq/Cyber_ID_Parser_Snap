@@ -1,18 +1,18 @@
 {
   "version": "0.1.0",
-  "description": "An example Snap written in TypeScript.",
+  "description": "Resovle Cyber ID into address.",
   "proposedName": "CyberID Parser",
   "repository": {
     "type": "git",
     "url": "https://github.com/cyberconnecthq/Cyber_ID_Parser_Snap.git"
   },
   "source": {
-    "shasum": "j4g0pV/miOGVxMB7N/0Prou6tgnpV8ulLs6hgfzZkj0=",
+    "shasum": "/iyPW1kndukIDSRv9FzDMYzrs+Niy8latbDoLuG4wqw=",
     "location": {
       "npm": {
         "iconPath": "images/cyber.svg",
         "filePath": "dist/bundle.js",
-        "packageName": "cyber_id_parser_snap",
+        "packageName": "@cyberlab/cyber-id-parser-snap",
         "registry": "https://registry.npmjs.org/"
       }
     }

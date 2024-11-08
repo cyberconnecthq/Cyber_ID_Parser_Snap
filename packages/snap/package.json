@@ -1,5 +1,5 @@
 {
-  "name": "cyber_id_parser_snap",
+  "name": "@cyberlab/cyber-id-parser-snap",
   "version": "0.1.0",
   "license": "(MIT-0 OR Apache-2.0)",
   "main": "./dist/bundle.js",
@@ -10,7 +10,8 @@
   },
   "files": [
     "dist/",
-    "snap.manifest.json"
+    "snap.manifest.json",
+    "images/cyber.svg"
   ],
   "scripts": {
     "allow-scripts": "yarn workspace root allow-scripts",
