@@ -4,25 +4,20 @@
   "proposedName": "CyberID Parser",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+    "url": "https://github.com/cyberconnecthq/Cyber_ID_Parser_Snap.git"
   },
   "source": {
-    "shasum": "98tfEQk6UDMZB3UrQvG7MBnZPjnw0SLegTn5FwisAsI=",
+    "shasum": "j4g0pV/miOGVxMB7N/0Prou6tgnpV8ulLs6hgfzZkj0=",
     "location": {
       "npm": {
         "iconPath": "images/cyber.svg",
         "filePath": "dist/bundle.js",
-        "packageName": "snap",
+        "packageName": "cyber_id_parser_snap",
         "registry": "https://registry.npmjs.org/"
       }
     }
   },
   "initialPermissions": {
-    "snap_dialog": {},
-    "endowment:rpc": {
-      "dapps": true,
-      "snaps": false
-    },
     "endowment:network-access": {},
     "endowment:name-lookup": {}
   },
