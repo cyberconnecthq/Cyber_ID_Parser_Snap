@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Resovle Cyber ID into address.",
   "proposedName": "CyberID Parser",
   "repository": {
@@ -7,7 +7,7 @@
     "url": "https://github.com/cyberconnecthq/Cyber_ID_Parser_Snap.git"
   },
   "source": {
-    "shasum": "/iyPW1kndukIDSRv9FzDMYzrs+Niy8latbDoLuG4wqw=",
+    "shasum": "qOeAaeqQ7UCzLl04f4QXiucoyc/GVU38IN1w9iLdpk4=",
     "location": {
       "npm": {
         "iconPath": "images/cyber.svg",

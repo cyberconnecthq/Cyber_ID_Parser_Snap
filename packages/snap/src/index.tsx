@@ -101,6 +101,9 @@ export const onNameLookup: OnNameLookupHandler = async (request) => {
 
   if (domain) {
     const resolvedAddress = await getCyberIdOwner(domain, isTestnet);
+    if (!resolvedAddress) {
+      return null;
+    }
     return {
       resolvedAddresses: [
         { resolvedAddress, protocol: 'Cyber ID Protocol', domainName: domain },
